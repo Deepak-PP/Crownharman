@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+}
+
+.box1{
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    
+}
+.navbar-toggler{
+    background-color: #0077C8;
+}
+.d-flex i{
+    margin-top: 5px;
+    margin-left: 3px;
+    padding-right: 35px;
+}
+.dropdown-item{
+    color: black
+}
+.dropdown-menu{
+    background-color: #0077C8;
+    border: none;
+}
+.belownav{
+    height: 700px;
+    background-color: aqua;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+
+}
+ .navbar-collapse
+      {
+          background-color:#0077C8;
+      }
+  
+  .navbar{
+    z-index:9; 
+  }
+  .col-xs-5,.col-md-5{
+    font-family: "quan_lightregular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    
+  }
+  /* .btn{
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    
+    
+  } */
+  .inpic{
+    display: flex;
+    justify-content: center;
+  }
+  .partyimagebtm{
+    background-image: url(partyiimage.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+  }
+  .blwparty{
+    
+    height: 400px;
+    background-color:#fff;
+    justify-content: center;
+    align-items: center;
+  }
+  .conncect{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width:900px;
+    color: #fff;
+  }
+  .socialimg{
+    height: 123px;
+  }
+  .crowngear{
+    height:50vh;
+    align-items: center;
+  }
+  @media screen and (max-width:503px){
+    .imgagesc{
+        width: 50px;
+    }
+  }
+  
+  .footer{
+    height: 40rem;
+    background-color: #464749
+  }
+  .footrimg{
+    width: 12rem;
+  }
+  .footrclm{
+    display: flex;
+    justify-content: center;
+    background-color: #464749;
+    width: 10rem;
+    margin-top: 35px;
+  }
+  
+  
+  
